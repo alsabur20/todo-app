@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+:root {
+    --font-family-main: "Itim", cursive;
+    --font-size-base: 24px; /* Increased font size */
+    --font-color-main: #333;
+    --line-height-base: 1.6; /* Adjusted line height */
+    --color-main: #7F7CAF;
+    --color-gray: gray;
+    --background-color: #eeeeff; /* Set a light background color */
+}
+
+body {
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--font-color-main);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.text-decoration-line-through {
+    color: var(--color-gray);
+    font-style: italic;
+}
+
+.active-filter {
+    background-color: var(--color-main); /* Bootstrap primary color */
+    color: white; /* Text color */
+}
+
+#addTaskBtn{
+    background-color: var(--color-main);
+    color: white;
+}
